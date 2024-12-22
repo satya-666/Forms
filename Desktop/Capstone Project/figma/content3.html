@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father-contact{
+        width: 1400px;
+        height: 750px;
+        border: 4px solid black;
+        margin: 30px 40px 30px 50px;
+        }
+        .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 200px auto 0;
+  }
+  
+  .form-title {
+    font: 400 28px/1 'Bebas Neue', sans-serif;
+    letter-spacing: -0.28px;
+    text-align: center;
+  }
+  
+  .form-subtitle {
+    font: 400 15px/1 'Roboto Mono', sans-serif;
+    margin-top: 8px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 12px;
+    margin-top: 32px;
+  }
+  
+  .form-input {
+    width: 56px;
+    height: 64px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 20px 16px;
+    font: 400 20px/1.2 'Roboto Mono', sans-serif;
+  }
+  
+  .submit-button {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 32px;
+    font: 400 15px/1 'Roboto Mono', sans-serif;
+    cursor: pointer;
+  }
+  
+  .skip-link {
+    margin-top: 32px;
+    font: 400 15px/1 'Roboto Mono', sans-serif;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0 24px;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  
+  .copyright {
+    font: 400 28px/1 'Bebas Neue', sans-serif;
+    letter-spacing: -0.28px;
+  }
+  
+  .social-button {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font: 400 20px/1.2 'Roboto Mono', sans-serif;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .portfolio-section {
+      padding: 0 20px 100px;
+    }
+    
+    .hero {
+      font-size: 40px;
+    }
+    
+    .hero-image {
+      margin-top: 40px;
+    }
+    
+    .about-section {
+      font-size: 40px;
+      line-height: 48px;
+    }
+    
+    .contact-form {
+      margin-top: 100px;
+    }
+    
+    .social-button {
+      padding: 0 20px;
+    }
+  }
+  input{
+    text-align: center;
+    font-size: xx-large;
+
+  }
+    </style>
+</head>
+<body>
+    <div class="father-contact">
+        <form class="contact-form">
+            <h2 class="form-title">Contact Me</h2>
+            <p class="form-subtitle">Fill out the form below to get in touch.</p>
+            
+            <div class="input-group">
+              <label for="input1" class="visually-hidden">Contact form digit 1</label>
+              <input type="text" id="input1" class="form-input" maxlength="1" placeholder="0" aria-label="First digit">
+              
+              <label for="input2" class="visually-hidden">Contact form digit 2</label>
+              <input type="text" id="input2" class="form-input" maxlength="1"  placeholder="0" aria-label="Second digit">
+              
+              <label for="input3" class="visually-hidden">Contact form digit 3</label>
+              <input type="text" id="input3" class="form-input" maxlength="1"  placeholder="0" aria-label="Third digit">
+              
+              <label for="input4" class="visually-hidden">Contact form digit 4</label>
+              <input type="text" id="input4" class="form-input" maxlength="1"  placeholder="0"  placeholder="0" varia-label="Fourth digit">
+              
+              <label for="input5" class="visually-hidden">Contact form digit 5</label>
+              <input type="text" id="input5" class="form-input" maxlength="1"  placeholder="0" aria-label="Fifth digit">
+            </div>
+        
+            <button type="submit" class="submit-button">Submit</button>
+            <button type="button" class="skip-link">Skip</button>
+          </form>
+        
+          <footer class="footer">
+            <p class="copyright">© 2023 GrungePort</p>
+            <button class="social-button">Follow Me</button>
+          </footer>
+    </div>
+</body>
+</html>

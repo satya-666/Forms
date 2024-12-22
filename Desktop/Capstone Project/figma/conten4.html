@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+    <style>
+        .itemmm:hover {
+            transform: scale(0.9); 
+        }
+        .wrapper{
+            margin: 30px 40px 30px 70px;
+            height: 412px;
+            width: 1344px;
+
+        }
+        .wrapper_child1{
+            margin-left:60px ;
+            width: 1260px;
+            /* height: 52px; */
+        }
+        .wrapper_child2{
+            height: 250px;
+            width: 1344px;
+            text-align: center;
+            align-items: center;
+            border: 1px solid #ddd;
+            display: flex;
+            overflow-x: auto;
+
+        }
+        .wrapper_child2 .itemmm{
+            min-width: 300px;
+            height: 220px;
+            /* line-height: 11px; */
+            text-align: center;
+            margin-right: 20px;
+            margin-top: 5px;
+            border: 2px solid black;
+            border-radius: 15px;
+        }
+        .wrapper_child2::-webkit-scrollbar{
+            width: 0;
+        }
+        #clients{
+            font-family: Bebas Neue;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 52px;
+            letter-spacing: -0.01em;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+        .itemmm_child1{
+            height: 60px;
+            width: 270px;
+            margin: 4px 6px 4px 10px;
+            display: flex;
+            flex-direction: row;
+        }
+        .itemmm_child2{
+            height: 120px;
+            width: 270px;
+            margin: 4px 6px 4px 10px;
+            display: flex;
+            flex-direction: row;
+        }
+        .child1_child1{
+            border: 2px solid black;
+            height: 50px;
+            width: 50px;
+            margin: 4px 6px 4px 10px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .child1_child2{
+            height: 50px;
+            width: 180px;
+            margin: 4px 6px 4px 10px;
+            display: flex;
+            flex-direction: column;
+        } 
+        .child1_child1 .tasvir1{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+        .child2_child1{
+            height: 20px;
+            width: 160px;
+            margin: 2px 3px 2px 6px;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+        .child2_child2{
+            height: 20px;
+            width: 160px;
+            margin: 2px 3px 2px 6px;
+            text-align: left;
+            font-family: Roboto Mono;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+        hr {
+            margin: 10px 0px 0px 35px ;
+            width: 2px; 
+            height: 100px;
+            border: 0; 
+            background-color: black; 
+            /* transform: rotate(90deg); */
+    }
+    .sim{
+        height: 100px;
+        width: 50px;
+        margin-right: 10px;
+        /* margin: 4px 10px 4px 70px; */
+    }
+    .kim{
+        height: 100px;
+        width: 200px;
+        font-family: Roboto Mono;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-top: 20px;
+    }
+   
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="wrapper_child1"><p id="clients">WHAT MY CLIENTS SAY</p></div>
+        <div class="wrapper_child2">
+            <div class="itemmm">
+                <div class="itemmm_child1">
+                    <div class="child1_child1"><img class="tasvir1" src="/img/review1.png"></div>
+                    <div class="child1_child2">
+                        <div class="child2_child1">Alexandra Wolfe</div>
+                        <div class="child2_child2">Art Director</div>
+                    </div>
+                </div>
+                <div class="itemmm_child2"> 
+                    <div class="sim"><hr></div> 
+                    <div class="kim">Amazing creativity and a unique style!</div>
+                </div>
+            </div>
+            <div class="itemmm">
+                
+                <div class="itemmm_child1">
+                    <div class="child1_child1"><img class="tasvir1" src="/img/review2.png"></div>
+                    <div class="child1_child2">
+                        <div class="child2_child1">Jordan Blake</div>
+                        <div class="child2_child2">Graphic Designer</div>
+                    </div>
+                </div>
+                <div class="itemmm_child2"> 
+                    <div class="sim"><hr></div> 
+                    <div class="kim">Transforms raw elements into stunning art.</div>
+                </div>
+            </div>
+            <div class="itemmm">
+
+                <div class="itemmm_child1">
+                    <div class="child1_child1"><img class="tasvir1" src="/img/review3.png"></div>
+                    <div class="child1_child2">
+                        <div class="child2_child1">Morgan Lee</div>
+                        <div class="child2_child2">Photographer</div>
+                    </div>
+                </div>
+                <div class="itemmm_child2"> 
+                    <div class="sim"><hr></div> 
+                    <div class="kim">A true visionary in the grunge art scene.</div>
+                </div>
+            
+            </div>
+            <div class="itemmm">
+                <div class="itemmm_child1">
+                    <div class="child1_child1"><img class="tasvir1" src="/img/review4.png"></div>
+                    <div class="child1_child2">
+                        <div class="child2_child1">Riley Harper</div>
+                        <div class="child2_child2">Creative Director</div>
+                    </div>
+                </div>
+                <div class="itemmm_child2"> 
+                    <div class="sim"><hr></div> 
+                    <div class="kim">Captures the essence of street culture perfectly.
+
+                    </div>
+                </div>
+        
+            
+            </div>
+            <div class="itemmm">
+
+                <div class="itemmm_child1">
+                    <div class="child1_child1"><img class="tasvir1" src="/img/review5.png"></div>
+                    <div class="child1_child2">
+                        <div class="child2_child1">Taylor Quinn</div>
+                        <div class="child2_child2">Illustrator</div>
+                    </div>
+                </div>
+                <div class="itemmm_child2"> 
+                    <div class="sim"><hr></div> 
+                    <div class="kim">An artist with a unique and powerful vision.</div>
+                </div>
+            
+            </div>
+            <div class="itemmm">
+                <div class="itemmm_child1">
+                    <div class="child1_child1"><img class="tasvir1" src="/img/review6.png"></div>
+                    <div class="child1_child2">
+                        <div class="child2_child1">Casey Morgan</div>
+                        <div class="child2_child2">Art Curator</div>
+                    </div>
+                </div>
+                <div class="itemmm_child2"> 
+                    <div class="sim"><hr></div> 
+                    <div class="kim">Brings a fresh perspective to every project.</div>
+                </div>
+            </div>
+            <div class="itemmm">
+                <div class="itemmm_child1">
+                    <div class="child1_child1"><img class="tasvir1" src="/img/zoro-removebg-preview.png"></div>
+                    <div class="child1_child2">
+                        <div class="child2_child1">Roronoa Zoro</div>
+                        <div class="child2_child2">Swords Man</div>
+                    </div>
+                </div>
+                <div class="itemmm_child2"> 
+                    <div class="sim"><hr></div> 
+                    <div class="kim"> Zoro, is a main combatant of the Straw Hat Pirates</div>
+                </div>
+            </div>
+            <div class="itemmm">
+                <div class="itemmm_child1">
+                    <div class="child1_child1"><img class="tasvir1" src="/img/sanji-removebg-preview.png"></div>
+                    <div class="child1_child2">
+                        <div class="child2_child1">Vinsmoke Sanji</div>
+                        <div class="child2_child2">Cook</div>
+                    </div>
+                </div>
+                <div class="itemmm_child2"> 
+                    <div class="sim"><hr></div> 
+                    <div class="kim"> Vinsumōku Sanji and also known as "Black Leg" Sanji</div>
+                </div>
+            </div>
+            <div class="itemmm"><div class="itemmm_child1">
+                <div class="child1_child1"><img class="tasvir1" src="/img/Ace-removebg-preview.png"></div>
+                <div class="child1_child2">
+                    <div class="child2_child1">Portgas D. Ace</div>
+                    <div class="child2_child2">2<sup>nd</sup>Div Com</div>
+                </div>
+            </div>
+            <div class="itemmm_child2"> 
+                <div class="sim"><hr></div> 
+                <div class="kim">Portgas D. Ace, nicknamed "Fire Fist" Ace</div>
+            </div></div>
+            <div class="itemmm"><div class="itemmm_child1">
+                <div class="child1_child1"><img class="tasvir1" src="/img/brook-removebg-preview.png"></div>
+                <div class="child1_child2">
+                    <div class="child2_child1">Burukku</div>
+                    <div class="child2_child2">Skleton singer</div>
+                </div>
+            </div>
+            <div class="itemmm_child2"> 
+                <div class="sim"><hr></div> 
+                <div class="kim">Lorem ipsum dolor sit amet.</div>
+            </div></div>
+
+            <div class="itemmm">
+                <div class="itemmm_child1">
+                    <div class="child1_child1"><img class="tasvir1" src="/img/jimbe-removebg-preview.png"></div>
+                    <div class="child1_child2">
+                        <div class="child2_child1">Jinbe</div>
+                        <div class="child2_child2">Helmsman</div>
+                    </div>
+                </div>
+                <div class="itemmm_child2"> 
+                    <div class="sim"><hr></div> 
+                    <div class="kim">First son of the sea.</div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+     
+  </body>
+</html>
